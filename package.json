@@ -1,0 +1,26 @@
+{
+  "name": "streaming-media-assignment",
+  "version": "1.0.0",
+  "description": "streaming media with node",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest": "eslint ./src --fix",
+    "test": "echo \"Tests complete\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cimo02/streaming-media-assignment.git"
+  },
+  "author": "Tyler Ciarmataro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cimo02/streaming-media-assignment/issues"
+  },
+  "homepage": "https://github.com/Cimo02/streaming-media-assignment#readme",
+  "devDependencies": {
+    "eslint": "^6.3.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-plugin-import": "^2.18.2"
+  }
+}
