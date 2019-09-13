@@ -12,7 +12,7 @@ const getMediaStream = (filePath, contentType, request, response) => {
       return response.end(err);
     }
 
-    let range = request.header;
+    let { range } = request.headers;
 
     if (!range) {
       range = 'bytes=0-';

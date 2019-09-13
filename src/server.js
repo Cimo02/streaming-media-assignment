@@ -23,7 +23,7 @@ const onRequest = (request, response) => {
     default:
       htmlHandler.getIndex(request, response);
       break;
-  };
+  }
 };
 
 http.createServer(onRequest).listen(port);
